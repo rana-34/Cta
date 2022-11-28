@@ -27,6 +27,7 @@ steps:
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-    ArtifactName: 'killer'
+    ArtifactName: 'warfile'
     publishLocation: 'Container'
+
 
